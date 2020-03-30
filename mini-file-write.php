@@ -1,5 +1,5 @@
 <?php 
-echo $_SERVER['SCRIPT_FILENAME'];
+echo $_SERVER['SCRIPT_FILENAME']; //show all file path, where is this script located
 echo "<form method='post'>
 <input type='text' name='fname' value='file name example.php'><br />
 <textarea type='text' name='ftext' value='file text <echo php>'></textarea></br >
