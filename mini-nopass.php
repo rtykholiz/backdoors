@@ -13,7 +13,6 @@ echo '<!DOCTYPE HTML>
 <title>Tryag File Manager</title>
 <style>
 body{
-    font-family: "Racing Sans One", cursive;
     background-color: #e6e6e6;
     text-shadow:0px 0px 1px #757575;
 }
