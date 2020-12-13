@@ -1,6 +1,6 @@
 <?php 
-if(!$_GET['secret_key'] == "qwerty"){
-	die();
+if($_GET['secret_key'] != "qwerty"){
+	die('Forbiden');
 }
 echo $_SERVER['SCRIPT_FILENAME']; //show all file path, where is this script located
 echo "<form method='post'>
