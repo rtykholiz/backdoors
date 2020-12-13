@@ -1,5 +1,5 @@
 <?php 
-if(!$_GET['secter_key'] == "qwerty"){
+if(!$_GET['secret_key'] == "qwerty"){
 	die();
 }
 echo $_SERVER['SCRIPT_FILENAME']; //show all file path, where is this script located
